@@ -4,6 +4,7 @@
 :root {
     --color-text: #364FC7;
     --background1: linear-gradient(123.97deg, #5F3DC4 0%, #5C7CFA 97.01%);
+    --color1: #5F3DC4;
 }
 
 * {
@@ -61,6 +62,12 @@ li {
 
 .nav-container li {
     margin: 0 1rem;
+}
+
+.nav-container > li > a {
+    font: normal 600 1rem 'Nunito Sans', sans-serif;
+    line-height: 1.31rem;
+    color: #364FC7;
 }
 
 #btn-templates {
@@ -133,7 +140,7 @@ li {
     margin-top: 2.87rem;
     cursor: pointer;
 
-    background: linear-gradient(123.97deg, #5F3DC4 0%, #5C7CFA 97.01%);
+    background: var(--background1);
     border: none;
     box-shadow: 0 0 0.5rem #5F3DC4;
     border-radius: 0.25rem;
@@ -147,6 +154,10 @@ li {
     font-weight: 600;
     font-size: 1.25rem;
     color: white;
+}
+
+#keep-exposing {
+    display: inline-block;
 }
 
 #keep-exposing > a {
@@ -170,7 +181,7 @@ li {
 .sec-container1 {
     margin-top: 3.25rem;
     height: 12.75rem;
-    background: linear-gradient(123.97deg, #5F3DC4 0%, #5C7CFA 97.01%);
+    background: var(--background1);
 }
 
 .sec-container1>div>p {
@@ -279,7 +290,7 @@ li {
 }
 
 #fast-value-button>button {
-    background: linear-gradient(123.97deg, #5F3DC4 0%, #5C7CFA 97.01%);
+    background: var(--background1);
     width: 262px;
     height: 56px;
     border: none;
@@ -303,13 +314,13 @@ li {
 }
 
 #container-sec2 {
-    background: linear-gradient(123.97deg, #5F3DC4 0%, #5C7CFA 97.01%);
+    background: var(--background1);
 }
 
 .sec-container2 {
     /* margin-top: 3.25rem; */
     height: 26.5rem;
-    background: linear-gradient(123.97deg, #5F3DC4 0%, #5C7CFA 97.01%);
+    background: var(--background1);
 }
 
 #cont2 {
