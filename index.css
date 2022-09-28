@@ -521,30 +521,74 @@ li {
 }
 
 .cont-nav-buttons {
-    
+
     padding: 4rem 4.5rem;
+}
+
+
+
+
+/* SEÇÃO DE BOTÕES CONTAINER DUVIDAS PC */
+
+.sec-btn-info {
+    display: flex;
+    justify-content: space-between;
 }
 
 .sec-btn-info>button {
     width: 176px;
     height: 136px;
 
+
     border: none;
-    background: var(--background1);
+    background: #748FFC;
 
     box-shadow: 0px 0px 8px #5F3DC4;
     border-radius: 12px;
+    cursor: pointer;
+
 }
 
-.sec-btn-info>button>a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.sec-btn-info>button:hover {
+    background: var(--background1);
+}
 
-    font: normal 600 1.5rem 'Nunito Sans', sans-serif;
+.sec-btn-info>button>i {
+    font-size: 48px;
     color: white;
 }
+
+.sec-btn-info>button>p {
+    line-height: 24px;
+    font: normal 600 1rem 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+
+
+
+/* SOBRE NÓS PC */
+
+.sec-sobre-nos > p {
+    width: 1032px;
+    margin-top: 3rem;
+    font: normal 400 1rem 'Nunito Sans', sans-serif;
+    line-height: 21px;
+    border-bottom: 1px solid #DEE2E6;
+    padding: 0 0 12px 0;
+}
+
+.sec-perguntas > div > h1 {
+    font: normal 600 1.25rem 'Nunito Sans', sans-serif;
+    line-height: 24px;
+    color: #748FFC;
+    margin: 1.5rem 0;
+}
+
+
+
+
+/* SEÇÃO DE PLANOS PC */
 
 .cont-father-price {
     display: flex;
