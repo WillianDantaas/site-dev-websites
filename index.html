@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="index.css">
     <title>PortoGS</title>
 </head>
@@ -303,35 +304,71 @@
                                 </button>
                             </div>
 
-                            <div class="sec-sobre-nos">
-                                <!-- Seção dinâmica Sobre Nós -->
-                                <p>A PortoGS surgiu em 2021, focada em desenvolver aplicações para web. Desde então, procuramos realizar nossos serviços com as melhores práticas do mercado, criando <b>confiabilidade</b> entre prestador e tomador do serviço indo além do sistema desenvolvido, dando <b>suporte técnico assistido</b> aos nossos clientes, além de <b>gerar valor</b> a quem contrata nossos serviços. </p>
-
+                            
+                            <div id="sobrenos">
+                                <!-- SOBRE NÓS -->
+                                <div class="sec-sobre-nos">
+                                    <!-- Seção dinâmica Sobre Nós -->
+                                    <p>A PortoGS surgiu em 2021, focada em desenvolver aplicações para web. Desde então, procuramos realizar nossos serviços com as melhores práticas do mercado, criando <b>confiabilidade</b> entre prestador e tomador do serviço indo além do sistema desenvolvido, dando <b>suporte técnico assistido</b> aos nossos clientes, além de <b>gerar valor</b> a quem contrata nossos serviços. </p>
+                                </div>
+                                <div class="sec-perguntas">
+                                    <div class="sec-principais-duvidas">
+                                        <!-- Seção dinâmica Principais duvidas -->
+                                        <div class="botao">
+                                            <h1>Quais tipos aplicações para WEB nós desenvolvemos?</h1>
+                                            <i class="ph-caret-down"></i>
+                                        </div>
+                                        <p class="sub-item">Desenvolvemos sites completos, landing page, blogs, dashboards, sistemas de gestão, sistemas de e-commerce e lojas online, portais de noticias, cms e muitos outros..</p>
+                                    </div>
+                                    <hr style="color: #DEE2E6;">
+                                    <div class="sec-tecnologias">
+                                        <!-- Seção dinâmica Tecnologias -->
+                                        <div class="botao">
+                                            <h1>Qual a nossa Missão como empresa desenvolvedora de software WEB?</h1>
+                                            <i class="ph-caret-down"></i>
+                                        </div>
+                                        <p class="sub-item">Buscamos se destacar dos demais através do ótimo relacionamento entre empresa prestadora do serviço e cliente, tornando o desenvolvimento de sua aplicação web confiável, rápida, escalável e com suporte técnico adequado voltado para você. Prezamos por um bom entendimento da sua ideia, regras de negócios e público alvo, tornando melhor o desenvolvimento do seu projeto.</p>
+                                    </div>
+                                    <hr>
+                                    <div class="sec-design">
+                                        <!-- Seção dinâmica Design -->
+                                        <div class="botao">
+                                            <h1>Qual a nossa Visão como empresa desenvolvedora de software WEB?</h1>
+                                            <i class="ph-caret-down"></i>
+                                        </div>
+                                        <p class="sub-item">Buscamos se destacar dos demais através do ótimo relacionamento entre empresa prestadora do serviço e cliente, tornando o desenvolvimento de sua aplicação web confiável, rápida, escalável e com suporte técnico adequado voltado para você. Prezamos por um bom entendimento da sua ideia, regras de negócios e público alvo, tornando melhor o desenvolvimento do seu projeto.</p>
+                                    </div>
+                                    <hr>
+                                    <div class="sec-templates">
+                                        <!-- Seção dinâmica Templates -->
+                                        <div class="botao">
+                                            <h1>Quais os nossos Valores como empresa desenvolvedora de software WEB?</h1>
+                                            <i class="ph-caret-down"></i>
+                                        </div>
+                                        <p class="sub-item">Desenvolvemos sites completos, landing page, blogs, dashboards, sistemas de gestão, sistemas de e-commerce e lojas online, portais de noticias, cms e muitos outros..</p>
+                                    </div>
+                                    <hr>
+                                </div>
                             </div>
 
-                            <div class="sec-perguntas">
-                                <div class="sec-principais-duvidas">
-                                    <!-- Seção dinâmica Principais duvidas -->
-                                    <h1>Quais tipos aplicações para WEB nós desenvolvemos?</h1>
+                            <div id="prinduvidas" style="display: none;">
+                                <!-- PRINCIPAIS DUVIDAS -->
+                                <h1>PRINCIPAIS DUVIDAS</h1>
+                            </div>
 
-                                    <!-- <p>Desenvolvemos sites completos, landing page, blogs, dashboards, sistemas de gestão, sistemas de e-commerce e lojas online, portais de noticias, cms e muitos outros..</p> -->
-                                </div>
-                                <hr style="color: #DEE2E6;">
-                                <div class="sec-tecnologias">
-                                    <!-- Seção dinâmica Tecnologias -->
-                                    <h1>Qual a nossa Missão como empresa desenvolvedora de software WEB?</h1>
-                                </div>
-                                <hr>
-                                <div class="sec-design">
-                                    <!-- Seção dinâmica Design -->
-                                    <h1>Qual a nossa Visão como empresa desenvolvedora de software WEB?</h1>
-                                </div>
-                                <hr>
-                                <div class="sec-templates">
-                                    <!-- Seção dinâmica Templates -->
-                                    <h1>Quais os nossos Valores como empresa desenvolvedora de software WEB?</h1>
-                                </div>
-                                <hr>
+                            <div id="tecnologias" style="display: none;">
+                                <!-- TECNOLOGIAS -->
+                                <h1>Tecnologias</h1>
+                            </div>
+
+                            <div id="design" style="display: none;">
+                                <!-- DESIGN -->
+                                <h1>Design</h1>
+                            </div>
+
+                            <div id="template" style="display: none;">
+                                <!-- TEMPLATE -->
+                                <h1>Template</h1>
                             </div>
                         </div>
 
@@ -628,6 +665,7 @@
 
     </section>
 
+    <script src="js/index.js"></script>
 
 </body>
 

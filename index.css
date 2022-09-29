@@ -578,15 +578,40 @@ li {
     padding: 0 0 12px 0;
 }
 
-.sec-perguntas > div > h1 {
+.sec-perguntas > div > div  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec-perguntas > div > div > h1 {
     font: normal 600 1.25rem 'Nunito Sans', sans-serif;
     line-height: 24px;
     color: #748FFC;
     margin: 1.5rem 0;
+    cursor: pointer;
+}
+
+.sec-perguntas > div > div > i {
+    font-size: 1rem;
+    color: #748FFC;
+}
+
+.sec-perguntas > div > p {
+    font: normal 400 1rem 'Nunito Sans', sans-serif;
+    line-height: 21px;
+    color: var(--color2);
+    margin: 0 0 37px 0;
 }
 
 
+.sub-item {
+    display: none;
+}
 
+.botao {
+    cursor: pointer;
+}
 
 /* SEÇÃO DE PLANOS PC */
 
