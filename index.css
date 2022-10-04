@@ -895,6 +895,7 @@ footer {
         max-width: 767px;
         position: relative;
         margin: 0 auto;
+
     }
     
     
@@ -968,9 +969,9 @@ footer {
     }
     
     .info-text > button {
+        text-align: center;
 
-
-        margin-top: 2.87rem;
+        margin: 2.87rem auto 0 auto;
         cursor: pointer;
     
         background: var(--background1);
@@ -999,18 +1000,25 @@ footer {
         height: 12.75rem;
         background: var(--background1);
     }
+
+    .sec-container1 > div {
+        display: flex;
+        justify-content: center;
+    }
     
     .sec-container1>div>p {
-        padding-top: 2rem;
+        padding-top: 2.5rem;
+        width: 272px;
         text-align: center;
-        font: normal 700 2rem 'Nunito sans', sans-serif;
+        font: normal 700 1.25rem 'Nunito sans', sans-serif;
+        line-height: 1.75rem;
         color: white;
     }
     
     .container-sec1 {
         background: white;
-        max-width: 75rem;
-        margin-top: -6.75rem;
+        width: 20rem;
+        margin-top: -4.75rem;
     
         box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.25);
         border-radius: 0.75rem;
@@ -1019,56 +1027,62 @@ footer {
     .list1,
     .list2 {
         display: flex;
-        padding: 2.5rem 4.43rem 3.75rem 4.43rem;
-        justify-content: space-around;
+        padding: 8px 16px 0 16px;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
     }
-    
+
+    .list2 {
+        padding: 0 0 40px 0;
+    }
+
     .list1>div>h1,
     .list2>div>h1 {
+
+        text-align: center;
+
         color: var(--color-text);
-        font: normal 700 1.5rem 'Nunito sans', sans-serif;
+        font: normal 700 1.12rem 'Nunito sans', sans-serif;
+        line-height: 27px;
+        
     }
     
     .list1>div>p,
     .list2>div>p {
-        max-width: 16.37rem;
         margin-top: 12px;
         color: var(--color2);
-        font: normal 400 1rem 'Nunito sans', sans-serif;
+        font: normal 400 0.87rem 'Nunito sans', sans-serif;
+        line-height: 18px;
+        text-align: center;
     }
     
-    .list1>div {
-        align-items: flex-start;
-    }
     
     .list1>div>img,
     .list2>div>img {
-        margin: 0 0 1.5rem 0;
+        display: block;
+        margin: 32px auto 24px auto;
     }
     
+
+    /* TEMOS PASSOS DEFINIDOS... */
     .step-dev-title {
-        max-width: 69.5rem;
-        margin-top: 3.81rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        margin-top: 2.5rem;
+        text-align: center;
     }
     
     .step-dev-title>h1 {
-        font: normal 700 2rem 'Nunito sans', sans-serif;
+        font: normal 700 1.12rem 'Nunito sans', sans-serif;
         color: var(--color-text);
         max-width: 30.5rem;
     }
     
     .step-dev-title>p {
-        font: normal 600 1rem 'Nunito sans', sans-serif;
-        color: #4C6EF5;
-        max-width: 26rem;
+        display: none;
     }
     
     #step-dev {
-        margin-top: 3.43rem;
+        margin-top: 1.5rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1076,28 +1090,34 @@ footer {
     
     .steps {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     
     .steps>div>h1 {
-        font: normal 700 0.87rem 'Nunito sans', sans-serif;
+        font: normal 700 0.66rem 'Nunito sans', sans-serif;
+        line-height: 0.87rem;
         color: var(--color-text);
-        margin-left: 24px;
+        margin-left: 1.13rem;
     }
     
     .steps>div>p {
-        font: normal 400 0.87rem 'Nunito sans', sans-serif;
+        font: normal 400 0.66rem 'Nunito sans', sans-serif;
         color: var(--color2);
-        margin: 0.50rem 0 0 1.5rem;
-        line-height: 1.12rem;
-        max-width: 16.43rem;
+        margin: 0.50rem 0 0 1.13rem;
+        line-height: 0.87rem;
+        max-width: 12.43rem;
     }
     
     .vector {
-        margin: 0.73rem 0 0.73rem 2.25rem;
-        width: 4.5rem;
+        margin: 0.52rem 0 0.52rem 2.25rem;
     }
     
+    #logotipogg {
+        display: none;
+    }
+
     #fast-value-button {
         margin-top: 60px;
         display: flex;
