@@ -893,13 +893,13 @@ footer {
     
     .container {
         max-width: 767px;
-        position: relative;
-        margin: 0 auto;
+        /* position: relative; */
+        margin: 0 auto !important;
 
     }
     
     
-    .nav-container {
+    /* .nav-container {
         display: flex;
     }
     
@@ -917,7 +917,7 @@ footer {
         font-weight: 600;
         color: white;
     
-    }
+    } */
     
     /* NAV DO MENU E BOTÃO TEMPLATES */
     .navegation-page {
@@ -1067,6 +1067,7 @@ footer {
 
     /* TEMOS PASSOS DEFINIDOS... */
     .step-dev-title {
+        display: block;
         margin-top: 2.5rem;
         text-align: center;
     }
@@ -1078,12 +1079,18 @@ footer {
     }
     
     .step-dev-title>p {
-        display: none;
+        /* display: block; */
+        max-width: 320px;
+        position: absolute;
+        margin-top: 500px;
+        text-align: center;
+        font: normal 600 0.75rem 'Nunito sans', sans-serif;
+        line-height: 1rem;
     }
     
     #step-dev {
         margin-top: 1.5rem;
-        display: flex;
+        display: block;
         justify-content: space-between;
         align-items: center;
     }
@@ -1113,13 +1120,23 @@ footer {
     .vector {
         margin: 0.52rem 0 0.52rem 2.25rem;
     }
-    
+
+    /* LOGOTIPO GRANDE */
+
     #logotipogg {
-        display: none;
+        margin: 112px auto 0 auto;
+    }
+    
+    #logotipogg > img {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        /* text-align: center; */
+        max-width: 272px;
     }
 
     #fast-value-button {
-        margin-top: 60px;
+        margin-top: 32px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1132,7 +1149,7 @@ footer {
         border: none;
         box-shadow: 0px 0px 8px #5F3DC4;
         border-radius: 8px;
-        margin: 0 0 6.56rem 0;
+        margin: 0 0 3rem 0;
     }
     
     #fast-value-button>button>a {
@@ -1147,6 +1164,10 @@ footer {
     #fast-value-button>button>a>i {
         font-size: 2rem;
         margin-left: 0.25rem;
+    }
+
+    .arrow-down > div > img {
+        max-width: 2rem;
     }
     
     #container-sec2 {
@@ -1177,7 +1198,7 @@ footer {
     .arrow-down {
         text-align: center;
         z-index: 9;
-        margin: 0 0 -44px 0;
+        margin: 0 0 -23px 0;
     }
     
     .arrow-down2 {
