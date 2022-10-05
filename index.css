@@ -1135,6 +1135,9 @@ footer {
         max-width: 272px;
     }
 
+
+    /* BOTÃO DE ORÇAMENTO RÁPIDO */
+
     #fast-value-button {
         margin-top: 32px;
         display: flex;
@@ -1165,14 +1168,10 @@ footer {
         font-size: 2rem;
         margin-left: 0.25rem;
     }
-
-    .arrow-down > div > img {
-        max-width: 2rem;
-    }
     
     #container-sec2 {
         max-width: 100%;
-        margin: -280px auto 0 auto;
+        margin: 40px auto 0 auto;
         position: relative;
         z-index: -1;
         background: var(--background1);
@@ -1180,25 +1179,33 @@ footer {
     }
     
     .sec-container2 {
-        height: 26.5rem;
+        height: 33.56rem;
         background: var(--background1);
     }
     
+
+    /* SEÇÃO DE POR QUE CONTRATAR A EMPRESA */
     #cont2 {
-        padding-top: 3.87rem;
+        padding-top: 3rem;
     }
     
     #cont2>h1 {
-        font: normal 800 2.5rem 'Nunito sans', sans-serif;
+        font: normal 700 1.25rem 'Nunito sans', sans-serif;
         text-align: center;
-        line-height: 48px;
+        line-height: 28px;
         color: white;
     }
+
+    /* SETAS PARA BAIXO */
     
+    .arrow-down > div > img {
+        width: 56px;
+    }
+
     .arrow-down {
         text-align: center;
         z-index: 9;
-        margin: 0 0 -23px 0;
+        margin: 0 0 -34px 0;
     }
     
     .arrow-down2 {
@@ -1213,89 +1220,124 @@ footer {
         padding: 0;
     }
     
+    /* LINHA DO FOGUETE */
+    #vector6 {
+        display: block !important;
+        margin: -20px 0 0 0;
+        text-align: center;
+    }
     
+
     #cont3 {
-        margin: 7.25rem 0 0 4.43rem;
+        margin: 246px auto 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     #cont3>div>h1 {
-        font: normal 700 2rem 'Nunito sans', sans-serif;
-        letter-spacing: 0.01em;
-        max-width: 25.81rem;
-        line-height: 2.62rem;
+        font: normal 700 1.25rem 'Nunito sans', sans-serif;
+        max-width: 17rem;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 1.75rem;
         color: white;
     }
     
     #cont3>div>p {
-        font: normal 400 1rem 'Nunito sans', sans-serif;
+        font: normal 400 0.87rem 'Nunito sans', sans-serif;
         color: white;
-        line-height: 1.31rem;
-        max-width: 25.81rem;
-        margin-top: 1.25rem;
+        line-height: 1.12rem;
+        max-width: 17rem;
+        margin: 1.5rem auto 0 auto;
     }
     
     #tablet {
-        text-align: end;
-        margin: -12rem 2.81rem 0 18.31rem;
-        position: relative;
+        text-align: center;
+        margin: -368px auto 0 auto;
+        /* position: absolute; */
+    }
+
+    #tablet > img {
+        width: 271px;
     }
     
     #foguete-fundo1 {
-        /* background-color: black; */
-        margin: -34rem 0 0 70.4rem;
+        display: none;
     }
     
     #foguete-btn1 {
-        margin: -1.6rem 0 0 16.31rem;
+        text-align: center;
+        margin: -1.6rem auto 0 auto;
     }
     
     #linha-foguete1 {
-        margin: -1.3rem 0 0 18rem;
+        display: none;
     }
     
     #foguete-fundo2 {
-        margin: -1.56rem 0 0 -120px;
-        /* background-color: black; */
+        display: none;
     }
     
     #smartphone {
-        margin: -15.8rem 0 0 120px;
+        /* margin: -15.8rem 0 0 120px; */
+        margin: 0;
+        text-align: center;
         position: relative;
+        display: none;
+    }
+
+    #smartphone > img {
+        max-width: 142px;
     }
     
     #text-sec-smarts>h1 {
-        font: normal 700 2rem 'Nunito Sans', sans-serif;
-        line-height: 42px;
+        text-align: center;
+        font: normal 700 1.25rem 'Nunito Sans', sans-serif;
+        line-height: 28px;
         letter-spacing: 0.01em;
         color: var(--color-text);
-        max-width: 25.37rem;
+        max-width: 17rem;
+
+        margin: 0 auto;
     }
     
     #text-sec-smarts>p {
-        margin-top: 24px;
-        font: normal 400 1rem 'Nunito Sans', sans-serif;
-        line-height: 21px;
+        margin: 24px auto 0 auto;
+        text-align: center;
+        font: normal 400 0.87rem 'Nunito Sans', sans-serif;
+        line-height: 18px;
         color: var(--color2);
-        max-width: 25.37rem;
+        max-width: 17rem;
     }
     
     #text-sec-smarts {
-        margin: -300px 0 0 21.43rem;
+        text-align: center;
+        margin: 24px auto 0 auto;
     }
     
-    
-    #foguete2>#img1 {
-        position: absolute;
-        z-index: 2;
-        margin: -85px 0 0 875px;
+    /* LINHA DO FOGUETE */
+    #img1 {
+        display: none;
+    }
+
+    /* LINHA FOGUETE */
+    #vector7 {
+        margin-top: 24px;
     }
     
     #foguete2>#img2 {
         position: absolute;
         z-index: 2;
-        margin: 20px 0 0 1060px;
+
+        margin: 64px auto 0 auto;
     }
-    
+
+    #foguete2 {
+        display: flex;
+        justify-content: center;
+    }
     
     .sec-text {
         height: 244px;
