@@ -1396,17 +1396,18 @@ footer {
     
     .title2>h1 {
         text-align: center;
-        margin-top: 24px;
-        font: normal 800 2.5rem 'Nunito Sans', sans-serif;
+        margin-top: 40px;
+        line-height: 28px;
+        font: normal 700 1.25rem 'Nunito Sans', sans-serif;
         color: var(--color-text);
     }
     
     .title2>p {
         margin-top: 1.5rem;
         text-align: center;
-        font: normal 300 1.5rem 'Nunito Sans', sans-serif;
+        font: normal 400 0.87rem 'Nunito Sans', sans-serif;
         color: var(--color2);
-        line-height: 1.93rem;
+        line-height: 1.12rem;
     }
     
     .container-info {
@@ -1433,96 +1434,17 @@ footer {
     
     
     
-    /* SEÇÃO DE BOTÕES CONTAINER DUVIDAS PC */
-    
-    .sec-btn-info {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .sec-btn-info>button {
-        width: 176px;
-        height: 136px;
-    
-    
-        border: none;
-        background: #748FFC;
-    
-        box-shadow: 0px 0px 8px #5F3DC4;
-        border-radius: 12px;
-        cursor: pointer;
-    
-    }
-    
-    .sec-btn-info>button:hover {
-        background: var(--background1);
-    }
-    
-    .sec-btn-info>button>i {
-        font-size: 48px;
-        color: white;
-    }
-    
-    .sec-btn-info>button>p {
-        line-height: 24px;
-        font: normal 600 1rem 'Nunito Sans', sans-serif;
-        color: white;
-    }
-    
-    
-    
-    
-    /* SOBRE NÓS PC */
-    
-    .sec-sobre-nos > p {
-        width: 1032px;
-        margin-top: 3rem;
-        font: normal 400 1rem 'Nunito Sans', sans-serif;
-        line-height: 21px;
-        border-bottom: 1px solid #DEE2E6;
-        padding: 0 0 12px 0;
-    }
-    
-    .sec-perguntas > div > div  {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .sec-perguntas > div > div > h1 {
-        font: normal 600 1.25rem 'Nunito Sans', sans-serif;
-        line-height: 24px;
-        color: #748FFC;
-        margin: 1.5rem 0;
-        cursor: pointer;
-    }
-    
-    .sec-perguntas > div > div > i {
-        font-size: 1rem;
-        color: #748FFC;
-    }
-    
-    .sec-perguntas > div > p {
-        font: normal 400 1rem 'Nunito Sans', sans-serif;
-        line-height: 21px;
-        color: var(--color2);
-        margin: 0 0 37px 0;
-    }
-    
-    
-    .sub-item {
+    /* SEÇÃO DE BOTÕES CONTAINER DUVIDAS */
+
+    #sec-doubt {
         display: none;
     }
     
-    .botao {
-        cursor: pointer;
-    }
     
     /* SEÇÃO DE PLANOS PC */
     
     .cont-father-price {
-        display: flex;
-        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
     
     .container-prices {
@@ -1530,7 +1452,7 @@ footer {
         border-radius: 12px;
         background-color: white;
         width: 488px;
-        height: 756px;
+        height: 777px;
         margin: 40px 0 80px 0;
     }
     
@@ -1552,12 +1474,13 @@ footer {
         line-height: 42px;
         letter-spacing: 0.01em;
         color: white;
+        text-align: center;
     }
     
     #p1 {
         /* padding-top: 8px; */
-        font: normal 600 1.25rem 'Nunito Sans', sans-serif;
-        line-height: 36px;
+        font: normal 600 1rem 'Nunito Sans', sans-serif;
+        line-height: 1.31rem;
         letter-spacing: 0.03em;
         color: #FFFFFF;
     }
@@ -1581,7 +1504,7 @@ footer {
     }
     
     #td-1 {
-        font: normal 700 1rem 'Nunito Sans', sans-serif;
+        font: normal 700 0.87rem 'Nunito Sans', sans-serif;
         line-height: 18px;
     
         letter-spacing: 0.05em;
@@ -1591,19 +1514,19 @@ footer {
     #td-2 {
         margin-top: 0.25rem;
     
-        font: normal 700 2rem 'Nunito Sans', sans-serif;
+        font: normal 700 1.5rem 'Nunito Sans', sans-serif;
         line-height: 42px;
         letter-spacing: 0.01em;
         color: var(--color-text);
     }
     
     .description-plans {
-        margin-top: 45px;
+        margin-top: 32px;
         padding: 0 32px;
     }
     
     .description-plans>div {
-        margin-top: 24px;
+        margin-top: 1rem;
         display: flex;
         align-items: center;
     }
@@ -1613,8 +1536,8 @@ footer {
     }
     
     .description-plans>div>div>p {
-        font: normal 400 1rem 'Nunito Sans', sans-serif;
-        line-height: 21px;
+        font: normal 400 0.87rem 'Nunito Sans', sans-serif;
+        line-height: 18px;
         color: var(--color2);
     }
     
@@ -1632,7 +1555,7 @@ footer {
     .btn-prices>button {
     
         background: var(--background1);
-        width: 262px;
+        width: 240px;
         height: 56px;
         border: none;
         box-shadow: 0px 0px 8px #5F3DC4;
@@ -1659,15 +1582,15 @@ footer {
     }
     
     #btn-wpp>h1 {
-        font: normal 700 2rem 'Nunito Sans', sans-serif;
-        line-height: 2.62rem;
+        font: normal 700 1.12rem 'Nunito Sans', sans-serif;
+        line-height: 1.68rem;
         letter-spacing: 0.01em;
         color: var(--color-text);
     }
     
     #btn-wpp>p {
-        font: normal 300 1.5rem 'Nunito Sans', sans-serif;
-        line-height: 1.93rem;
+        font: normal 300 0.87rem 'Nunito Sans', sans-serif;
+        line-height: 1.12rem;
         color: var(--color2);
         margin-top: 0.75rem;
     }
@@ -1703,6 +1626,9 @@ footer {
         font-size: 2rem;
         margin-left: 0.25rem;
     }
+
+
+    /*  FOOTER */
     
     footer {
         /* margin-top: 80px; */
@@ -1715,6 +1641,7 @@ footer {
         padding: 0 128px 0 0;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     
     #info-b1 {
