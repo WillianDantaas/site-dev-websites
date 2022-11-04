@@ -897,27 +897,14 @@ footer {
         margin: 0 auto !important;
 
     }
-    
-    
-    /* .nav-container {
-        display: flex;
+
+    /* NAVEGAÇÃO MOBILE - MENU HAMBURGUER */
+
+    .navigation-mobile > i{
+        font-size: 32px;
+        color: var(--color1)
     }
     
-    .nav-container li {
-        margin: 0 1rem;
-    }
-    
-    .nav-container>li>a {
-        font: normal 600 1rem 'Nunito Sans', sans-serif;
-        line-height: 1.31rem;
-        color: var(--color-text);
-    }
-    
-    #btn-templates {
-        font-weight: 600;
-        color: white;
-    
-    } */
     
     /* NAV DO MENU E BOTÃO TEMPLATES */
     .navegation-page {
@@ -1451,7 +1438,7 @@ footer {
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
         border-radius: 12px;
         background-color: white;
-        width: 488px;
+        max-width: 100%;
         height: 777px;
         margin: 40px 0 80px 0;
     }
@@ -1631,55 +1618,49 @@ footer {
     /*  FOOTER */
     
     footer {
-        /* margin-top: 80px; */
-        width: 1440px;
-        height: 320px;
-        background: var(--background1);
+        max-width: 100%;
+        height: 996px;
     }
     
     .container-footer {
-        padding: 0 128px 0 0;
+        padding: 0 !important;
         display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        flex-wrap: wrap !important;
+        justify-content: center;
     }
+
     
     #info-b1 {
-        margin-top: 2rem;
-        max-width: 288px;
+        text-align: center;
     }
     
-    #info-b1>img {
-        margin-left: -0.5rem;
-    }
     
     #info-b1>p {
-        margin-top: 0.25rem;
-        font: normal 700 0.75rem 'Nunito Sans', sans-serif;
-        line-height: 1rem;
-        color: white;
+        text-align: center;
+    }
+
+    #info-b2 {
+        margin: -51px;
     }
     
     #info-b2>p {
-        margin-top: 75px;
-        font: normal 400 0.75rem 'Nunito Sans', sans-serif;
-        color: white;
-        line-height: 1rem;
+        text-align: center;
     }
     
-    #info-b2>div>a>img {
-        margin: 8px 8px 0 0;
+    #info-b2 > div {
+        text-align: center;
     }
     
-    #navigation,
-    #pages {
-        max-width: 172px;
-        margin: 44px 0 4px 0;
+    #navigation {
+        margin-top: 100px;
     }
-    
+
+    #navigation, #pages {
+        text-align: center;
+    }
+
     #contact {
-        max-width: 240px;
-        margin: 44px 0 4px 0;
+        text-align: center;
     }
     
     #contact>p {
@@ -1687,30 +1668,8 @@ footer {
         font: normal 400 0.87rem 'Nunito Sans', sans-serif;
         color: white;
         display: flex;
+        justify-content: center;
         align-items: center;
-    }
-    
-    #contact>p>i {
-        margin-right: 8px;
-    }
-    
-    #navigation>h1,
-    #pages>h1,
-    #contact>h1 {
-        font: normal 700 1rem 'Nunito Sans', sans-serif;
-        line-height: 1.5rem;
-        color: white;
-    }
-    
-    #navigation>nav>ul>li,
-    #pages>nav>ul>li {
-        margin-top: 12px;
-    }
-    
-    #navigation>nav>ul>li>a,
-    #pages>nav>ul>li>a {
-        font: normal 400 0.87rem 'Nunito Sans', sans-serif;
-        color: white;
     }
 
 }
