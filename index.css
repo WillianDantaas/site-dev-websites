@@ -40,9 +40,13 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin: 0 auto; */
     height: 4.5rem;
 }
 
+.navigation-mobile {
+    display: none;
+}
 
 .logotipo {
     top: 0.43rem;
@@ -899,8 +903,11 @@ footer {
     }
 
     /* NAVEGAÇÃO MOBILE - MENU HAMBURGUER */
+    .navigation-mobile {
+        display: block;
+    }
 
-    .navigation-mobile > i{
+    .navigation-mobile > div > i{
         font-size: 32px;
         color: var(--color1)
     }
