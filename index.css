@@ -361,6 +361,10 @@ li {
     padding: 0;
 }
 
+#vector7 {
+    display: none;
+}
+
 
 #cont3 {
     margin: 7.25rem 0 0 4.43rem;
@@ -1323,6 +1327,7 @@ footer {
 
     /* LINHA FOGUETE */
     #vector7 {
+        display: block;
         margin-top: 24px;
     }
     
