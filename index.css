@@ -444,6 +444,10 @@ li {
     margin: 20px 0 0 1060px;
 }
 
+/* LINHA FOGUETE MOBILE */
+#vector7 { 
+    display: none;
+}
 
 .sec-text {
     height: 244px;
@@ -1324,6 +1328,7 @@ footer {
     /* LINHA FOGUETE */
     #vector7 {
         margin-top: 24px;
+        display: block;
     }
     
     #foguete2>#img2 {
