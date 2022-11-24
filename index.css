@@ -894,7 +894,7 @@ footer {
 @media (max-width: 767px) {
     
     .center {
-        max-width: 320px;
+        max-width: 767px;
         margin: 0 auto;
         position: relative;
     }
@@ -1683,6 +1683,49 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+}
+
+/* VERSÃO IPAD */
+
+@media (max-width: 1024px) {
+
+    .center {
+        max-width: 320px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .container {
+        max-width: 1024px;
+        /* position: relative; */
+        margin: 0 auto !important;
+
+    }
+
+    /* NAVEGAÇÃO MOBILE - MENU HAMBURGUER */
+    .navigation-mobile {
+        display: block;
+    }
+
+    .navigation-mobile > div > i{
+        font-size: 32px;
+        color: var(--color1)
+    }
+    
+    
+    /* NAV DO MENU E BOTÃO TEMPLATES */
+    .navegation-page {
+        display: none;
+    }
+
+    .others-btn-container {
+        display: none;
+    }
+    
+    #svg-background {
+        display: none;
     }
 
 }
